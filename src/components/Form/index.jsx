@@ -11,19 +11,19 @@ export default function index() {
         <Col>
           <Form.Group controlId="formBasicName">
             <Form.Label><b>Nome:</b></Form.Label>
-            <Form.Control type="name" placeholder="Nome Completo" />
+            <Form.Control required type="name" placeholder="Nome Completo" />
             <Form.Text className="text-muted" />
           </Form.Group>
 
           <Form.Group controlId="formBasicEmail">
             <Form.Label><b>E-mail:</b></Form.Label>
-            <Form.Control type="email" placeholder="nome.completo@gmail.com" />
+            <Form.Control required type="email" placeholder="nome.completo@gmail.com" />
             <Form.Text className="text-muted" />
           </Form.Group>
 
           <Form.Group controlId="formBasicPassword">
             <Form.Label><b>Senha:</b></Form.Label>
-            <Form.Control type="password" placeholder=". . . . ." />
+            <Form.Control required type="password" placeholder=". . . . ." />
           </Form.Group>
           <Form.Group controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Lembre-me" />

@@ -1,16 +1,25 @@
 import React from 'react';
+import './Home.css';
 
 export default function index() {
   return (
-    <div>
-      <h1>
-        Welcome!
+    <div className="div">
+      <h1 className="h1">
+        Bem Vindo!
       </h1>
-      <p>
+      <p className="p">
         {' '}
-        Navegue pelo site... Clique em Incrição na barra de menu acima para preencher seus dados
+        Navegue pelo site... Clique em
+        {' '}
+        <b>Formulário de Inscrição</b>
+        {' '}
+        na barra de menu acima para preencher seus dados
         <br />
-        e vá para Lista de Cadastros caso deseje visualizar os dados.
+        e vá para
+        {' '}
+        <b>Lista de Cadastros</b>
+        {' '}
+        caso deseje visualizar os dados salvos.
       </p>
     </div>
   );

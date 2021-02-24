@@ -1,9 +1,10 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
+import './Table.css';
 
 export default function index() {
   return (
-    <Table striped bordered hover size="sm">
+    <Table className="table" striped bordered hover size="sm">
       <thead>
         <tr>
           <th>#</th>
