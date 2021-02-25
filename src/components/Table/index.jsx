@@ -4,32 +4,29 @@ import './Table.css';
 
 export default function index() {
   return (
-    <Table className="table" striped bordered hover size="sm">
+    <Table className="table" striped bordered hover size="lg">
       <thead>
         <tr>
           <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Nome Completo</th>
+          <th>E-mail</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>Cleyson Henrique Silva Duarte</td>
+          <td>cleysonduarte99@gmail.com</td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td>João Augusto Souza</td>
+          <td>Joaoas@hotmail.com</td>
         </tr>
         <tr>
           <td>3</td>
-          <td colSpan="2">Larry the Bird</td>
-          <td>@twitter</td>
+          <td>Maria Clara Neves</td>
+          <td>clara.maria@yahoo.br</td>
         </tr>
       </tbody>
     </Table>
