@@ -13,7 +13,7 @@ export default function index() {
     // event.preventDefault();
     const listaDados = [info1, info2, info3];
 
-    console.log(listaDados);
+    // console.log(listaDados);
     alert(listaDados);
   };
 
