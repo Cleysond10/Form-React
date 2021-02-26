@@ -14,8 +14,10 @@ export default function index() {
   const handleSubmit = () => {
     // event.preventDefault();
 
+    localStorage.setItem('myData', JSON.stringify(data));
+
     console.log(JSON.stringify(data));
-    alert(JSON.stringify(data));
+    // alert(JSON.stringify(data));
   };
 
   return (

@@ -15,8 +15,8 @@ export default function index() {
       <tbody>
         <tr>
           <td>1</td>
-          <td>Cleyson Henrique Silva Duarte</td>
-          <td>cleysonduarte99@gmail.com</td>
+          <td>Maria Clara Neves</td>
+          <td>clara.maria@yahoo.br</td>
         </tr>
         <tr>
           <td>2</td>
@@ -25,8 +25,10 @@ export default function index() {
         </tr>
         <tr>
           <td>3</td>
-          <td>Maria Clara Neves</td>
-          <td>clara.maria@yahoo.br</td>
+          <td colSpan="2">
+            {localStorage.getItem('myData')}
+            ;
+          </td>
         </tr>
       </tbody>
     </Table>
