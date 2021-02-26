@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 export default function routes() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar title="iForm" />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/inscricao" component={Inscricao} />

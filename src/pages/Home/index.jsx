@@ -8,16 +8,16 @@ export default function index() {
         Bem Vindo!
       </h1>
       <p className="p">
+        Navegue pelo site...
         {' '}
-        Navegue pelo site... Clique em
-        {' '}
-        <b>Formulário de Inscrição</b>
-        {' '}
-        na barra de menu acima para preencher seus dados
         <br />
-        e vá para
+        Clique em
         {' '}
-        <b>Lista de Cadastros</b>
+        <a className="hiperlink" href="/inscricao"> Formulário de Inscrição </a>
+        na para preencher suas informações e completar sua inscrição
+        e/ou vá para
+        {' '}
+        <a className="hiperlink" href="/cadastros">Lista de Cadastros</a>
         {' '}
         caso deseje visualizar os dados salvos.
       </p>
