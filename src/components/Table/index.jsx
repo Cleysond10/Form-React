@@ -14,18 +14,8 @@ export default function index() {
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>Maria Clara Neves</td>
-          <td>clara.maria@yahoo.br</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>João Augusto Souza</td>
-          <td>Joaoas@hotmail.com</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan="2">
+          <td>#</td>
+          <td colSpan="3">
             {localStorage.getItem('myData')}
             ;
           </td>
